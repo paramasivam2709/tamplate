@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 Not Found | Stackly Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(rgba(15,26,43,0.95), rgba(15,26,43,0.95)), url('image/hero-bg.jpg') no-repeat top center/cover;
+    }
+    .notfound-card {
+      background: rgba(32,32,32,0.38);
+      border-radius: 18px;
+      border: 1.5px solid rgba(255,255,255,0.20);
+      padding: 2.5rem 2.5rem 2rem 2.5rem;
+      max-width: 500px;
+      box-shadow: 0 8px 32px rgba(31,38,135,0.26);
+      text-align: center;
+    }
+    .notfound-code {
+      font-size: 5rem;
+      font-weight: 900;
+      color: #a4ff9f;
+      margin-bottom: 1rem;
+    }
+    .notfound-message {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+    .notfound-link {
+      display: inline-block;
+      margin-top: 1rem;
+      background: linear-gradient(90deg, #baff91, #f8ffa8);
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 7px;
+      padding: 0.7rem 1.7rem;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(255,204,41,0.15);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .notfound-link:hover {
+      background: #a4ff9f;
+      color: #212121;
+    }
+  </style>
+</head>
+<body>
+  <div class="notfound-card">
+    <div class="notfound-code">404</div>
+    <div class="notfound-message">Sorry, the page you are looking for does not exist.</div>
+    <a class="notfound-link" href="index.html">Go to Home</a>
+  </div>
+</body>
+</html>

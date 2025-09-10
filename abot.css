@@ -1,0 +1,91 @@
+.about-info.single-card {
+  background:  rgba(255,255,255,0.05);
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(164,255,159,0.13);
+  padding: 28px 24px;
+  max-width: 400px;
+  margin: 32px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  animation: floatUp 3s ease-in-out infinite;
+}
+
+.about-info.single-card .info-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.08rem;
+  color: #eafff2;
+  width: 100%;
+  flex-wrap: wrap;
+}
+ 
+.about-info.single-card .info-row i {
+  color: #a4ff9f;
+  font-size: 1.2em;
+  min-width: 22px;
+}
+
+.about-info.single-card .info-row a {
+  color: #a4ff9f;
+  text-decoration: none;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.about-info.single-card .experience {
+  color: #a4ff9f;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .about-info.single-card {
+    padding: 16px 8px;
+    max-width: 98vw;
+    font-size: 0.98rem;
+  }
+  .about-info.single-card .info-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+    .about-info {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .about-info div {
+      text-align: center;
+      padding: 15px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 15px rgba(164, 255, 159, 0.2);
+      transition: transform 0.3s;
+      animation: floatUp 3s ease-in-out infinite;
+    }
+    .about-info div:hover {
+      transform: scale(1.05);
+    }
+    .about-info a {
+      color: #a4ff9f;
+      text-decoration: none;
+    }
+    .experience {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #a4ff9f;
+    }
