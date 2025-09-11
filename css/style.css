@@ -9978,6 +9978,10 @@ h6,
 }
 
 
+.svg-logo {
+  filter: brightness(0) saturate(100%) invert(77%) sepia(13%) saturate(1170%) hue-rotate(63deg) brightness(104%) contrast(101%);
+}
+
 
 
 
