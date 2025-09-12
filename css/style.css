@@ -9971,6 +9971,18 @@ h6,
   background: #0BCEAF;
 }
 
+/* Show dropdown on hover */
+.navbar .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Keep smooth hover */
+.dropdown-menu {
+  margin-top: 0;
+}
+
+
+
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;

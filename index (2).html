@@ -39,14 +39,16 @@
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
                 <div class="nav-item dropdown">
-    <a href="" class="nav-link dropdown-toggle" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Home
-    </a>
-    <div class="dropdown-menu" aria-labelledby="homeDropdown">
-        
-        <a class="dropdown-item" href="index.html">Home Page 1</a>
-    </div>
+  <a href="#home" class="nav-link dropdown-toggle" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Home
+  </a>
+  <div class="dropdown-menu" aria-labelledby="homeDropdown">
+    
+    <a class="dropdown-item" href="index (2).html">Home Page 1</a>
+  </div>
 </div>
+
+
 
                 <a href="#about" class="nav-item nav-link">About</a>
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
@@ -596,6 +598,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+  
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
@@ -603,6 +606,16 @@
 
     <!-- Template Javascript -->
     <script src="js/main (2).js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const homeLink = document.getElementById("homeDropdown");
+  homeLink.addEventListener("click", function (e) {
+    // Go to home section if clicked
+    window.location.href = homeLink.getAttribute("href");
+  });
+});
+</script>
+
 </body>
 
 </html>
