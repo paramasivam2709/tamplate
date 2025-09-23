@@ -356,6 +356,12 @@ h1 {
     flex-direction: column;
     gap: 10px;
   }
+  .text {
+ 
+  padding-left: 40px;
+  
+}
+ 
 }
 
 /* ...existing code... */
@@ -1371,7 +1377,7 @@ text-align: center;
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   min-height: 400px;
 }
 
@@ -1430,7 +1436,7 @@ text-align: center;
   margin: 14px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   background: rgba(255,255,255,0.03);
   padding: 10px 14px;
   border-radius: 10px;
