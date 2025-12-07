@@ -139,21 +139,7 @@ body {
 .svg-logo {
   filter: brightness(0) saturate(100%) invert(77%) sepia(13%) saturate(1170%) hue-rotate(63deg) brightness(104%) contrast(101%);
 }
-.nav-links.open {
-  max-height: 500px;
-}
-.nav-links {
-    transition: max-height 0.3s ease;
-}
-.nav-links {
-    overflow: hidden !important;
-    max-height: 0;
-    transition: max-height 0.4s ease;
-}
 
-.nav-links.open {
-    max-height: 1000px !important;
-}
 
 
 /* Mobile Navbar */
