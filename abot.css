@@ -89,3 +89,133 @@
       font-weight: bold;
       color: #a4ff9f;
     }
+
+    
+
+
+
+.approach-section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-tag {
+  color: #6effb3;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.section-title span {
+  color: #6effb3;
+}
+
+/* Cards */
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  padding: 25px;
+  text-align: left;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  color: #6effb3;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+/* Image Section */
+.image-box {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: url("image/hero-bg.jpg")
+              center/cover no-repeat;
+  min-height: 350px;
+}
+
+/* Play Button */
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #6effb3;
+  color: #000;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Stats */
+.stats {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+}
+
+.stats h3 {
+  color: #6effb3;
+  font-size: 22px;
+}
+
+.stats p {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+
+
+
+/* Section */
+.expertise {
+  padding: 80px 20px;
+}
+
+.expertise-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
